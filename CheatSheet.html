@@ -1,0 +1,253 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.2.3.2 (Windows)"/>
+	<meta name="created" content="2019-05-31T21:17:18"/>
+	<meta name="changed" content="2019-05-31T22:17:54"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 0.79in }
+		p { margin-bottom: 0.1in; direction: ltr; color: #000000; line-height: 115%; text-align: left; orphans: 2; widows: 2; background: transparent }
+		p.western { font-family: "Liberation Serif", serif; font-size: 12pt; so-language: en-US }
+		p.cjk { font-family: "NSimSun"; font-size: 12pt; so-language: zh-CN }
+		p.ctl { font-family: "Arial"; font-size: 12pt; so-language: hi-IN }
+		td p { direction: ltr; color: #000000; text-align: left; orphans: 2; widows: 2; background: transparent }
+		td p.western { font-family: "Liberation Serif", serif; font-size: 12pt; so-language: en-US }
+		td p.cjk { font-family: "NSimSun"; font-size: 12pt; so-language: zh-CN }
+		td p.ctl { font-family: "Arial"; font-size: 12pt; so-language: hi-IN }
+	</style>
+</head>
+<body lang="en-US" text="#000000" link="#000080" vlink="#800000" dir="ltr">
+<table width="665" cellpadding="4" cellspacing="0" style="page-break-before: always">
+	<col width="323"/>
+
+	<col width="323"/>
+
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font size="4" style="font-size: 14pt"><b>I. Data Analysis Example</b></font></p>
+		</td>
+		<td width="323" style="background: transparent" style="border: 1px solid #000000; padding: 0.04in"><p class="western">
+			<font size="4" style="font-size: 14pt"><b>(Command)</b></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			1.  <span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">
+			</span></span></span></font></font></font></span><span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 11pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Load
+			the file you want to work with</span></span></span></font></font></font></span></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-x C-f myfile.R</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font size="2" style="font-size: 11pt">2.  Edit as appropriate,
+			then start and switch to an R buffer.</font></p>
+			<p class="western"><font size="2" style="font-size: 10pt">(</font><span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">A
+			new buffer *R* will appear. R will have been started in this
+			buffer.  The buffer is in iESS [R] mode.</span></span></span></font></font></font></span><span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">)</span></span></span></font></font></font></span></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			C-c C-z</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western"><a name="__DdeLink__314_988906662"></a>
+			<font size="2" style="font-size: 10pt">(</font><span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">A
+			new buffer *R* will appear. R will have been started  in this
+			buffer.  The buffer is in iESS [R] mode.</span></span></span></font></font></font></span><span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">)</span></span></span></font></font></font></span></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			<br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font size="2" style="font-size: 11pt">3.  Return to the script
+			(prefix with C-c if you have pressed other keys)</font></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-z</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">4.
+			 Send regions, lines, or the entire file contents to R.  (For
+			regions, </font></font><span style="font-variant: normal"><font color="#171717"><font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt"><span style="letter-spacing: normal">
+			</span></font></font></font></span><span style="font-variant: normal"><font color="#171717"><font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">highlight
+			a region with keystrokes or mouse and then send with)</span></span></span></font></font></font></span></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			C-c C-r</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">5.
+			</font></font><span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">
+			Re-edit myfile.R as necessary to correct any difficulties.  Add
+			new commands here.  Send them to R by region.</span></span></span></font></font></font></span></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			C-c C</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">5A.
+			 Send one(1) line at a time.</font></font></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			C-c C-n</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">6.
+			Save the revised myfile.R </font></font>
+			</p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-x C-s</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">7.
+			</font></font><span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Save
+			the entire *R* interaction buffer, you  will be prompted for a
+			file name. (The recommended name is myfilee.R)</span></span></span></font></font></font></span></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-c C-s</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<br/>
+
+			</p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			<br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font size="4" style="font-size: 14pt"><b>II. Program revision
+			example</b></font> (source code is real)</p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			<br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">1.
+			 Start R in a process buffer (this will be *R*)</font></font></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			  M-x R</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">2.
+			Load the file you want to work with</font></font></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-x C-f myfile.R</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">3.
+			edit program, functions, and code in myfile.R, and send revised
+			functions to R when ready </font></font>
+			</p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			C-c C-f</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">3A.
+			</font></font><span style="font-variant: normal"><font color="#171717"><font face="inherit, serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">or
+			highlighted regions with</span></span></span></font></font></font></span></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-c C-r</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">3B.
+			 or individual lines with</font></font></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-c C-n</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">3C.
+			 or load the entire buffer with</font></font></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-c M-l</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<font face="Liberation Serif, serif"><font size="2" style="font-size: 11pt">4.
+			Save the revised myfile.R when you have finished</font></font></p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			 C-c C-s</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<br/>
+
+			</p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			<br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in"><p class="western">
+			<br/>
+
+			</p>
+		</td>
+		<td width="323" style="background: transparent" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in"><p class="western">
+			<br/>
+
+			</p>
+		</td>
+	</tr>
+</table>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%; page-break-before: always">
+<br/>
+
+</p>
+</body>
+</html>
